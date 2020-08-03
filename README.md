@@ -28,6 +28,7 @@ Remember to have fun and _read all the directions before you start_!
   - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
   - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
 - [RESOURCES](#RESOURCES)
+- [GROUPS](#GROUPS)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
 - [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
@@ -209,6 +210,10 @@ When you submit an issue ticket, you must use the issue ticket template and incl
 > [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/issue-ticket-template.md)
 
 <br>
+
+# GROUPS
+
+![Groups](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Screen%20Shot%202020-08-03%20at%208.56.03%20AM.png)
 
 # RECOMMENDATIONS
 
