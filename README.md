@@ -153,7 +153,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
 7. **Post-MVP:** Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete. (If you plan to use a component library, please link that here as well.)
 8. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
 
-> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-bees/project_1/blob/master/Project_worksheet.md)
+> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Project-Template)
 >
 > Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 >
