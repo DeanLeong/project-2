@@ -8,7 +8,7 @@
 
 Congratulations! You're nearly done with Unit 2, which means you've conquered the basics of HTML, CSS, and Javascript, and now we get to kick it up a notch with modular and modern front-end applications using the React framework.
 
-As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project, but don't worry– we know stateful versus stateless can be very confusing at first, but don't worry. We'll be helping you out along the way.
+As with P1, the Unit 2 Project is a chance to be creative and build something you can be proud of. You will be working individually on this project and we know that things like "stateful versus stateless" can be very confusing at first, but don't worry. We'll be helping you out along the way.
 
 Remember to have fun and _read all the directions before you start_!
 
@@ -23,11 +23,12 @@ Remember to have fun and _read all the directions before you start_!
 - [GETTING STARTED](#GETTING-STARTED)
   - [STEP 1. Read All Directions Before You Start](#STEP-1-Read-All-Directions-Before-You-Start)
   - [STEP 2. Make A New Repo](#STEP-2-Make-A-New-Repo)
-  - [STEP 3. Research and Choose Your API](#STEP-3-Research-and-Choose-Your-API)
+  - [STEP 3. Setup Airtable](#STEP-3-Setup-Airtable)
   - [STEP 4. Wireframe Your App](#STEP-4-Wireframe-Your-App)
   - [STEP 5. Pitch Your Project Idea](#STEP-5-Pitch-Your-Project-Idea)
   - [STEP 6. Get Hacking](#STEP-6-Get-Hacking)
 - [RESOURCES](#RESOURCES)
+- [GROUPS](#GROUPS)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
 - [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
@@ -36,11 +37,11 @@ Remember to have fun and _read all the directions before you start_!
 
 # OVERVIEW
 
-> **Pitches Due:** 4/13/20 at 9:00 AM
+> **Pitches Due:** 8/3/20 at 9:00 AM
 >
-> **Deployed MVP Due:** 4/17/20 at 2:00 PM
+> **Deployed MVP Due:** 8/7/20 at 12:00 PM
 > 
-> **Presentations:** 4/20/20 at 3:00 PM
+> **Presentations:** 8/7/20 at 1:30 PM
 >
 > **Starter Code:** No starter code provided.
 
@@ -50,7 +51,7 @@ Remember to have fun and _read all the directions before you start_!
 
 **In order to pass, ALL MVP requirements must be met.**
 
-This project, like the prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of- and an ability to use- the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
+This project, like the one prior, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of - and an ability to use - the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
 
 ### Planning <!-- omit in toc -->
 
@@ -58,19 +59,20 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### React <!-- omit in toc -->
 
-- Be a working, interactice React app, built using `create react app`.
+- Be a working, interactive React app, built using `create react app`.
 - Utilize React Router, installed via NPM. 
 - Have at least 6 separate, rendered components.
 - Implement an organized and understandable React file structure.
 - Utilize functional and class React components appropriately.
-- Use Axios to consume data from an third party API, and render that data in your components. (Remember, many lists of good API's are listed in the #Resources section.)
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
 - Use **only** React for DOM Manipulation.
 
 ### Styling <!-- omit in toc -->
 
-- Be styled with CSS, either using global style sheets or styled components.
-- Use flexbox (`display: flex`) or CSS Grid.
-- Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+- Be styled, use CSS, Styled Components, CSS-in-JS, or a component library to syle your react project.
+- Use flexbox (`display: flex`) or CSS Grid (N/A if using a component library that handles this).
+- Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile and N/A if using a component library that handles this).
   
 ### Linting <!-- omit in toc -->
 
@@ -82,18 +84,11 @@ This project, like the prior, will be a portfolio piece. For a portfolio piece t
 
 ### Deployment <!-- omit in toc -->
 
-- Deployed via Surge or Netlify.
+- Deployed via Netlify.
 
 ### Procedural <!-- omit in toc -->
 
 - Commit early and often! Have GitHub commits (documenting substantial progress) **every day**.
-
-### Dealer's Choice <!-- omit in toc -->
-
-The final MVP requirement is up to you. **You must choose either**:
-
-- Utilize Storybook to create at least 5 reusable components, which are then used in your project; OR
-- Utilize Jest to create at least 15 tests, which are then used in your project.
 
 <br>
 
@@ -133,30 +128,12 @@ You will start by creating your project repository on your **personal** GitHub. 
 | ... Make a new repo through GitHub. | ... Clone this SEI repo.           |
 | ... Make the new repo public.       | ... Initialize with a ReadMe file. |
 
-<br>
-
-## STEP 3. Research and Choose Your API
-
-You have the freedom to choose an API that aligns with your interests or goals, but remember our requirements from P1.
-
-* Use an API that is public, free, and– if an API key is required– that accepts that key in the URL or header. If it requires membership, granted access, payment, or OAuth, it will likely take too much time to gain access to the data, both to get your keys and to program the requests.
-* Second, you must prove you can retrieve and consume data at project pitch time to be approved. **If you cannot do this, we will tell you to find another API.**
 
 <br>
 
-| **DO**                                                    | **DO NOT**                                  |
-| --------------------------------------------------------- | ------------------------------------------- |
-| ... Have some fun in choosing an API.                     | ... Choose a terrible API.                  |
-| ... Consider the clarity of the API's data structure.     | ... Choose a terrible API.                  |
-| ... Consider the thoroughness of the API's documentation. | ... Seriously, don't choose a terrible API. |
+## Step 3. Setup your Airtable
 
-<br>
-
-As you saw for P1, there are _literally_ hundreds, if not thousands, of APIs that have been tested, used and abused by previous students. Start with those lists and it'll make your life easier. 
-
-Refer to the Resources section below for suggestions and lists of available APIs; if you find one not on this list that you'd like to use, feel free, just remember the above requirements. (Did you read this far? If so, we've been sneaky and want you to complete a challenge for us: Make the very first thing in your Project ReadMe for your Pitch a space-themed GIF image. Don't tell your classmates.)
-
-<br>
+The sky is the limit here, even though in class, we only went over the basic use cases of Airtable, you now can have full CRUD functionality with your application. You have the building blocks of every Database dependent website in the world! (ie... Facebook, AirB&B, MySpace!, Twitter)While you may not have User Authentication yet, you still can build something powerful and useful! BE CREATIVE!
 
 ## STEP 4. Wireframe Your App
 
@@ -172,12 +149,12 @@ Before you start coding away, you must meet with an instructor to get your ideas
 2. **Description:** 4 to 5 sentences in non-technical speak summarizing the features, functions, and goals.
 3. **Wireframes:** Mockups of your app on desktop, tablet, and mobile.
 4. **Component Heirarchy:** A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
-5. **API:** The API you will be using and a link to the documentation.
+5. **API:** How you will be using Airtable to handle your data.
 6. **MVP:** Your goals for MVP, including the minimum, need-to-have features of your app.
 7. **Post-MVP:** Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete. (If you plan to use a component library, please link that here as well.)
 8. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
 
-> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/project2-README-template.md)
+> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Project-Template)
 >
 > Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 >
@@ -220,7 +197,7 @@ Remember, two things:
 
 Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
 
-Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Shay, however, will still hold his hours as planned.
+Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Soleil, however, will still hold her hours as planned.
 
 (We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
 
@@ -234,29 +211,9 @@ When you submit an issue ticket, you must use the issue ticket template and incl
 
 <br>
 
-# RESOURCES
+# GROUPS
 
-### Some Tested APIs <!-- omit in toc -->
-
-- Star Wars: https://swapi.co/
-- Weather: https://openweathermap.org/api
-- News: https://newsapi.org/
-- Giphy: https://developers.giphy.com/
-- Pokemon: http://pokeapi.co/
-- Card Deck: https://deckofcardsapi.com/
-- Google Books: https://developers.google.com/books/
-- City of Chicago: https://data.cityofchicago.org/
-- Beer: https://www.brewerydb.com/developers
-- Chuck Norris: http://www.icndb.com/
-- Rick and Morty: https://rickandmortyapi.com/documentation/#rest
-- Word API: https://www.wordsapi.com/
-
-- For comprehensive lists of Public APIs, check the following. (PLEASE NOTE, we do not maintain, review, or recommended all of these APIs. These lists are simply of all publicly available APIs and are maintained by third parties. It's your responsibility to make sure the API fits the project requirements.)
-  - https://github.com/toddmotto/public-apis
-  - https://github.com/abhishekbanthia/Public-APIs
-  - https://rapidapi.com/
-
-<br>
+![Groups](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Screen%20Shot%202020-08-03%20at%208.56.03%20AM.png)
 
 # RECOMMENDATIONS
 
@@ -313,10 +270,10 @@ in every category.
 
 ### Incomplete Projects <!-- omit in toc -->
 
-Incomplete projects will be giving a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
+Incomplete projects will be given a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
 
 <br>
 
 # PLAGIARISM
 
-Remember. We have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
+Remember, we have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
