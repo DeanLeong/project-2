@@ -12,7 +12,6 @@ As with P1, the Unit 2 Project is a chance to be creative and build something yo
 
 Remember to have fun and _read all the directions before you start_!
 
-<br>
 
 ## Table of Contents
 
@@ -33,19 +32,16 @@ Remember to have fun and _read all the directions before you start_!
 - [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
 
-<br>
 
 # OVERVIEW
 
-> **Pitches Due:** 8/3/20 at 9:00 AM
+> **Pitches Due:** 10/09/20 at 10:00 AM
 >
-> **Deployed MVP Due:** 8/7/20 at 12:00 PM
+> **Deployed MVP Due:** 10/14/20 at 12:00 PM
 > 
-> **Presentations:** 8/7/20 at 1:30 PM
+> **Presentations:** 10/16/20 at 11:30 AM
 >
 > **Starter Code:** No starter code provided.
-
-<br>
 
 ## MVP Requirements
 
@@ -90,7 +86,6 @@ This project, like the one prior, will be a portfolio piece. For a portfolio pie
 
 - Commit early and often! Have GitHub commits (documenting substantial progress) **every day**.
 
-<br>
 
 ## Post-MVP Ideas
 
@@ -98,7 +93,6 @@ Achieve your MVP with time to spare? Try aiming for some stretch goals. (The fol
 
 - Get input from a UX student on how to make your app have intuitive UI and design.
 
-<br>
 
 ## The Presentation
 
@@ -106,7 +100,6 @@ Finally, to get you familiar with presenting your work to audiences, the last re
 
 - Present your app to your cohort. Be sure to show it's functionality and features, including responsiveness. (Chrome Dev Tools' _Device Toolbar_ is helpul for this.)
 
-<br>
 
 # GETTING STARTED
 
@@ -114,13 +107,10 @@ Finally, to get you familiar with presenting your work to audiences, the last re
 
 _We'll know if you don't._
 
-<br>
 
 ## STEP 2. Make A New Repo
 
 You will start by creating your project repository on your **personal** GitHub. _(Refer to the Resources section below if you need help with this.)_
-
-<br>
 
 | **DO**                              | **DO NOT**                         |
 | ----------------------------------- | ---------------------------------- |
@@ -128,8 +118,6 @@ You will start by creating your project repository on your **personal** GitHub. 
 | ... Make a new repo through GitHub. | ... Clone this SEI repo.           |
 | ... Make the new repo public.       | ... Initialize with a ReadMe file. |
 
-
-<br>
 
 ## Step 3. Setup your Airtable
 
@@ -139,8 +127,6 @@ The sky is the limit here, even though in class, we only went over the basic use
 
 You can make your wireframes as lo-fi and hand-drawn, or as hi-res and computer-generated, as you'd like. Just prove that you've thought about what this layout will require. Include desktop, tablet, and mobile screen sizes.
 
-<br>
-
 ## STEP 5. Pitch Your Project Idea
 
 Before you start coding away, you must meet with an instructor to get your ideas approved. We will have 8 minute pitches in which you'll present your ideas. **You must have your ideas prepared and written up in a ReadMe file, including all of the following items, to get approved.**
@@ -148,27 +134,25 @@ Before you start coding away, you must meet with an instructor to get your ideas
 1. **Title:** A working title for your app. (Feel free to have some fun with this.)
 2. **Description:** 4 to 5 sentences in non-technical speak summarizing the features, functions, and goals.
 3. **Wireframes:** Mockups of your app on desktop, tablet, and mobile.
-4. **Component Heirarchy:** A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
-5. **API:** How you will be using Airtable to handle your data.
+4. **Component Hierarchy:** A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
+5. **API:** How you will be using Airtable to handle your data, as well as a sample data pull from your Airtable database.
 6. **MVP:** Your goals for MVP, including the minimum, need-to-have features of your app.
 7. **Post-MVP:** Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete. (If you plan to use a component library, please link that here as well.)
-8. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
+8. **Project Schedule:** Lay out your timeline for your project, from proposal to deployment.
+9. **Timeframes:** Estimate out how much time you'll need for each part of your project! This will help you determine your schedule as well as how to prioritize certain features.
+10. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
 
-> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Project-Template)
+> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-phoenix/project-2/blob/master/Project-Template)
 >
 > Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 >
 > For putting wireframes in your ReadMe, we recommend uploading to Imgur, then linking the file directly into your markdown using the `![imageAlt](imageURL)` format. The imageURL must be a direct link ending with the file format, such as `.png`.
-
-<br>
 
 | **DO**                                  | **DO NOT**                        |
 | --------------------------------------- | --------------------------------- |
 | ... Create a ReadMe file locally.       | ... Leave your ReadMe empty.      |
 | ... Add, commit & push your ReadMe.     | ... Leave your GitHub repo empty. |
 | ... Have your Pitch materials prepared. | ... Waste the instructors' time.  |
-
-<br>
 
 ## STEP 6. Get Hacking
 
@@ -207,13 +191,10 @@ Prior to using one of your tokens, we **strongly** recommend that you file an is
 
 When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
-> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/projects/issue-ticket-template.md)
-
-<br>
+> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-phoenix/class-info/blob/master/projects/issue-ticket-template.md)
 
 # GROUPS
-
-![Groups](https://git.generalassemb.ly/sei-nyc-bees/project-2/blob/master/Screen%20Shot%202020-08-03%20at%208.56.03%20AM.png)
+These are located in the [squads.md](./squads.md) file.
 
 # RECOMMENDATIONS
 
@@ -229,51 +210,10 @@ _(From previous survivors of project weeks.)_
 
 > "Don’t try too hard. Really. Do something that’s achievable and put cool graphics and styling on it."
 
-<br>
-
-# EVALUATION
-
-Your instructors will evaluate your project and determine if it is complete or
-incomplete. We use the following rubric for our evaluation, but ultimately it is
-up to your instructors as to whether your project is complete or incomplete.
-
-We will evaluate your project according to the following criteria:
-
-- **Code Quality:** Is the code well formatted? Are variable and function names
-  semantic and sensible? Is the code easy to read and understand?
-- **Technical Requirements:** How does the project stack up to the requirements
-  for this project? Is the developer making use of the material we've covered in
-  a way that makes sense?
-- **Creativity & Interface:** Is the application easy to navigate? Does it work
-  well in every major browser? Is it responsive? Does it incorporate modern UI
-  Themes?
-- **Functionality:** Does the application work without errors or bugs? Does it
-  present a complete app, where every feature is fully implemented in a way that
-  makes sense?
-- **Presentation:** Is there adequate documentation? Is the repository well
-  organized and free of clutter?
-
-### Scoring <!-- omit in toc -->
-
-Each of the above categories will be scored according to the following:
-
-| Score | Description |
-| ----- | ----------- |
-| 0     | Incomplete  |
-| 1     | Progressing |
-| 2     | Performing  |
-| 3     | Excelling   |
-
-For a project to be considered complete, you must achieve at least "Progressing"
-in each category. However, at a minimum, you should aim to achieve "Performing"
-in every category.
-
 ### Incomplete Projects <!-- omit in toc -->
 
 Incomplete projects will be given a 3 day/weekend extension. **Note that you are allowed only one extension for any project. Use it wisely.**
 
-<br>
-
 # PLAGIARISM
 
-Remember, we have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-supernovas/class-info/blob/master/policies/plagiarism.md).
+Remember, we have a **zero tolerance policy** towards plagiarism. More on our plagiarism policy can be found in our course wiki's [plagiarism policy page](https://git.generalassemb.ly/sei-nyc-phoenix/class-info/blob/master/policies/plagiarism.md).
