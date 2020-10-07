@@ -211,10 +211,10 @@ _(From previous survivors of project weeks.)_
 
 ### SAMPLE PROJECTS
 Here are some previous P2s from students:
-[Working It](https://workingit-training-app.netlify.app/)
-[Lifted Spirits](https://trusting-austin-420653.netlify.app/)
-[2048](https://2048-clone-zs.netlify.app)
-[FinDash](https://quizzical-kirch-53c1ec.netlify.app/)
+- [Working It](https://workingit-training-app.netlify.app/)
+- [Lifted Spirits](https://trusting-austin-420653.netlify.app/)
+- [2048](https://2048-clone-zs.netlify.app)
+- [FinDash](https://quizzical-kirch-53c1ec.netlify.app/)
 
 ### Incomplete Projects <!-- omit in toc -->
 
