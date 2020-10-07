@@ -141,7 +141,7 @@ Before you start coding away, you must meet with an instructor to get your ideas
 9. **Timeframes:** Estimate out how much time you'll need for each part of your project! This will help you determine your schedule as well as how to prioritize certain features.
 10. **SWOT Analysis:** Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats?
 
-> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-phoenix/project-2/blob/master/Project-Template)
+> [Project 2 README Template](https://git.generalassemb.ly/sei-nyc-phoenix/project-2/blob/master/Project-Template.md)
 >
 > Optionally, include a final section, your `Code Showcase`. Put snippets you're proud of here, and let your viewers know when you've written brag-worthy code!
 >
@@ -178,15 +178,11 @@ Remember, two things:
 
 ### Getting Support <!-- omit in toc -->
 
-Each student will be given 5 (five) tokens, redeemable at any time during regular class time (subject to instructors' schedules), for 20 minutes. **Tokens cannot be transferred between students - there is no black market for tokens.**
+Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Janice, however, will still hold her hours as planned.
 
-Instructors will not be holding open office hours during project week. This is to give you the opportunity to solve issues and errors you run in to on your own and with your classmates. Soleil, however, will still hold her hours as planned.
+To receive support, file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
 
 (We also strongly recommend using Slack to get help from your classmates. Chances are you all will be running into similar problems!)
-
-#### Maximizing Effectiveness of Support Sessions <!-- omit in toc -->
-
-Prior to using one of your tokens, we **strongly** recommend that you file an issue ticket on your project's git repository to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
 
 When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
