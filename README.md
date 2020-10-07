@@ -186,7 +186,7 @@ To receive support, file an issue ticket on your project's git repository to bot
 
 When you submit an issue ticket, you must use the issue ticket template and include all sections.
 
-> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-phoenix/class-info/blob/master/projects/issue-ticket-template.md)
+> [Project Issue Ticket Template](https://git.generalassemb.ly/sei-nyc-phoenix/class-resources/blob/master/projects/issue-ticket-template.md)
 
 # GROUPS
 These are located in the [squads.md](./squads.md) file.
