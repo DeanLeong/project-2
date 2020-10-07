@@ -29,7 +29,6 @@ Remember to have fun and _read all the directions before you start_!
 - [RESOURCES](#RESOURCES)
 - [GROUPS](#GROUPS)
 - [RECOMMENDATIONS](#RECOMMENDATIONS)
-- [EVALUATION](#EVALUATION)
 - [PLAGIARISM](#PLAGIARISM)
 
 
